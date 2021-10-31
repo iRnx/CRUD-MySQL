@@ -10,7 +10,7 @@ def conectar():
             host='localhost',
             database='python',
             user='root',
-            password='root')
+            password='SUA SENHA')
         return conn
 
     except mysql.connector.Error as e:
