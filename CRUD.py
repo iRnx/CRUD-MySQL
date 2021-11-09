@@ -37,7 +37,7 @@ def listar():
     if len(produtos) > 0:       # verificar se produtos esta cheia ou vazia #
         print('Listando produtos...')
         print('---------------------')
-        for produto in produtos:     # O python vai receber o resultado como lista. #
+        for produto in produtos:     # O python vai receber o resultado como tupla. #
             print(f'ID: {produto[0]}')
             print(f'Produto: {produto[1]}')
             print(f'Preço: {produto[2]}')
